@@ -1,0 +1,236 @@
+1
+00:00:00,000 --> 00:00:03,240
+Hi guys, welcome back to our channel IP Fighter.
+
+2
+00:00:04,040 --> 00:00:07,720
+Cloudflare acts as a strong shield against unwanted bots and cyber threats.
+
+3
+00:00:08,720 --> 00:00:11,660
+But what if you need to access data or automate tasks?
+
+4
+00:00:12,640 --> 00:00:16,660
+In this video, we'll reveal the tactics for bypassing Cloudflare's security.
+
+5
+00:00:17,620 --> 00:00:22,120
+Before we dive into bypassing Cloudflare, let's learn a bit about what Cloudflare does.
+
+6
+00:00:23,000 --> 00:00:26,780
+Cloudflare Bot Protection, provided by a well-known web security company,
+
+7
+00:00:27,060 --> 00:00:29,560
+is part of Cloudflare's Security Operations Center.
+
+8
+00:00:30,000 --> 00:00:35,320
+It offers services like comprehensive security monitoring, incident response, and threat
+
+9
+00:00:35,320 --> 00:00:40,560
+detection. The bot management module is designed to handle various types of bots that can get
+
+10
+00:00:40,560 --> 00:00:45,160
+through captures and cause issues like credit card stuffing, credential stuffing, and more.
+
+11
+00:00:46,020 --> 00:00:50,240
+While it blocks certain types of bots, it allows others like Google's bots, chatbots,
+
+12
+00:00:50,560 --> 00:00:53,020
+personal assistant bots, and web crawling bots.
+
+13
+00:00:53,940 --> 00:00:57,760
+However, for professionals and businesses relying on large-scale web scraping,
+
+14
+00:00:57,760 --> 00:01:00,200
+Cloudflare's bot management can be a challenge.
+
+15
+00:01:01,540 --> 00:01:04,680
+Web pages protected by Cloudflare often block bot access.
+
+16
+00:01:05,720 --> 00:01:11,200
+If you've faced issues like Error 1012, Denied Access, or Error 1015, you're being
+
+17
+00:01:11,200 --> 00:01:15,380
+rate-limited, you'll need to understand how Cloudflare identifies bots to bypass its
+
+18
+00:01:15,380 --> 00:01:20,960
+security. Cloudflare employs two main approaches to detect and deal with bots, passive and
+
+19
+00:01:20,960 --> 00:01:25,000
+active bot detection. Let's take a closer look at these techniques.
+
+20
+00:01:25,770 --> 00:01:31,500
+The first one is passive bot detection. Passive bot detection methods observe automated
+
+21
+00:01:31,500 --> 00:01:36,840
+bots without interfering with them. Cloudflare uses these techniques to spot bots.
+
+22
+00:01:37,660 --> 00:01:42,120
+Cloudflare tracks bot networks' behavior and flags IP addresses and devices displaying
+
+23
+00:01:42,120 --> 00:01:47,340
+harmful bot-like activities. If a request comes from one of these flagged IP addresses,
+
+24
+00:01:47,640 --> 00:01:51,860
+Cloudflare blocks it. Every IP address has a fraud or risk score,
+
+25
+00:01:51,860 --> 00:01:56,580
+indicating its reputation based on factors like the ISP, location, and source.
+
+26
+00:01:57,680 --> 00:02:02,420
+Cloudflare also analyzes HTTP request headers to distinguish bots from real users.
+
+27
+00:02:03,620 --> 00:02:07,980
+Requests not coming from typical web browsers or lacking necessary headers are flagged as
+
+28
+00:02:07,980 --> 00:02:13,640
+bots and blocked. TSL fingerprinting technique helps Cloudflare detect the user agent by
+
+29
+00:02:13,640 --> 00:02:18,940
+examining TLS client hello messages and the user agent header. If these match known
+
+30
+00:02:18,940 --> 00:02:25,040
+fingerprints, the request is allowed. Just like TLS, Cloudflare uses HTTP slash
+
+31
+00:02:25,040 --> 00:02:30,820
+two headers to identify bots. This technology creates unique fingerprints for each request,
+
+32
+00:02:31,120 --> 00:02:35,860
+helping Cloudflare verify them. The second approach is active bot protection.
+
+33
+00:02:36,820 --> 00:02:41,300
+Active bot detection involves checking on the visitor's site to identify and block bots.
+
+34
+00:02:42,240 --> 00:02:47,500
+Cloudflare uses various methods for this. Captures challenge bots since they require
+
+35
+00:02:47,500 --> 00:02:53,200
+human intelligence to solve. Cloudflare uses captures to detect bots in some cases.
+
+36
+00:02:54,400 --> 00:02:58,240
+Additionally, Cloudflare observes actions like keyboard typing and mouse clicks to
+
+37
+00:02:58,240 --> 00:03:03,420
+determine if a request is from a human or bot. Canvas fingerprinting records specific
+
+38
+00:03:03,420 --> 00:03:08,540
+details about a user's web browser, creating a unique fingerprint. It helps
+
+39
+00:03:08,540 --> 00:03:13,620
+distinguish between legitimate users and bots. Another fingerprinting method,
+
+40
+00:03:13,620 --> 00:03:18,440
+browser fingerprinting, identifies a device by analyzing attributes like screen size,
+
+41
+00:03:18,680 --> 00:03:24,060
+browser type, and installed plugins. Cloudflare uses this to create a device fingerprint,
+
+42
+00:03:24,320 --> 00:03:29,420
+which helps spot bots. Cloudflare also gathers data about the user's environment,
+
+43
+00:03:29,640 --> 00:03:34,840
+such as the operating system and screen resolution. This helps Cloudflare identify
+
+44
+00:03:34,840 --> 00:03:40,540
+bot behavior patterns. To bypass Cloudflare's security, you'll need to focus on two key
+
+45
+00:03:41,110 --> 00:03:47,760
+your IP address and browser fingerprint. Here's how you can do it. Firstly, you can avoid
+
+46
+00:03:47,760 --> 00:03:51,880
+triggering suspicion by sending too many requests from a single IP address.
+
+47
+00:03:52,900 --> 00:03:59,140
+To change your IP address, consider using a VPN or proxy. Residential proxies work well
+
+48
+00:03:59,140 --> 00:04:04,640
+to avoid raising suspicions. Additionally, you can modify your browser fingerprint with
+
+49
+00:04:04,640 --> 00:04:10,240
+HIDE-MIAC Anti-Detect Browser. You can use an anti-detect browser such as HIDE-MIAC to
+
+50
+00:04:10,240 --> 00:04:13,920
+create profiles with different browser fingerprints, which helps you bypass
+
+51
+00:04:13,920 --> 00:04:19,060
+Cloudflare's bot detection. You can also customize your browser fingerprint parameters
+
+52
+00:04:19,060 --> 00:04:24,400
+like user agent, operating system, screen resolution, and more. Moreover,
+
+53
+00:04:24,680 --> 00:04:29,320
+for automating tasks without triggering Cloudflare's bot detection, HIDE-MIAC offers an
+
+54
+00:04:29,320 --> 00:04:34,580
+automation feature. It allows you to create scripts that simulate human actions while using
+
+55
+00:04:34,580 --> 00:04:40,380
+multiple profiles. You can download HIDE-MIAC and start your 7-day free trial via the link
+
+56
+00:04:40,380 --> 00:04:45,040
+in the description. That's the guide to conquer Cloudflare's defenses and enhance
+
+57
+00:04:45,040 --> 00:04:50,900
+your online activities. If you find this video helpful, hit like and subscribe to get notified
+
+58
+00:04:50,900 --> 00:04:56,860
+about my upcoming videos. If you have any further questions, you can contact us via Facebook
+
+59
+00:04:56,860 --> 00:05:00,000
+or Twitter. Good luck and see you next time.
+

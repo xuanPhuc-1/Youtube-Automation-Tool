@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:08,180
+Wait, your IP is not as clean as you think. Or is it? Check it now with IPFighter. IPFighter
+
+2
+00:00:08,180 --> 00:00:15,920
+raises your IP address by checking if your IP is blacklisted, WebRTC is correct, DNS is accurate
+
+3
+00:00:15,920 --> 00:00:22,240
+and more. It also provides useful information about your browser fingerprints. With one simple
+
+4
+00:00:22,240 --> 00:00:28,220
+access, you get all the weekly details about your IP and browser. And the best part? It's
+
+5
+00:00:28,220 --> 00:00:34,260
+completely free. Head over to ipfighter.com now to check your IP score at zero cost.
+

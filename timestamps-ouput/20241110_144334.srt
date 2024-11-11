@@ -1,0 +1,136 @@
+1
+00:00:04,660 --> 00:00:10,080
+Hi, guys. Today, I will guide you on how to add a proxy to change your IP using the Proxy
+
+2
+00:00:10,080 --> 00:00:15,640
+Helper extension. First, go to the Chrome Web Store and install the Proxy Helper extension.
+
+3
+00:00:22,380 --> 00:00:25,720
+After installing, click on this icon and pin the extension.
+
+4
+00:00:28,520 --> 00:00:33,580
+Right-click and select Options to open Proxy Helper. This is the interface of the tool,
+
+5
+00:00:33,580 --> 00:00:39,340
+it looks very simple, right? I'll introduce the features of Proxy Helper one by one.
+
+6
+00:00:39,740 --> 00:00:44,480
+In the General section, Proxy Helper supports proxies for four protocols, HTTP,
+
+7
+00:00:44,840 --> 00:00:51,400
+HTTPS, SOC S, and QUIC. Use the protocol that fits your proxy and fill in the information in
+
+8
+00:00:51,400 --> 00:00:56,020
+the corresponding section. If you're not sure which type your proxy is, just fill in all
+
+9
+00:00:56,020 --> 00:01:04,160
+four sections. Next is the Proxy mode. There are five different types, Single Proxy,
+
+10
+00:01:04,380 --> 00:01:10,820
+Proxy for HTTPS, Proxy for HTTP, Proxy for FTP, and Fallback Proxy. You can just select
+
+11
+00:01:10,820 --> 00:01:16,380
+the default option, which is Single Proxy. If your proxy has a username and password,
+
+12
+00:01:16,660 --> 00:01:27,900
+go to the Authentication section to enter that information. You only need to set these
+
+13
+00:01:27,900 --> 00:01:33,640
+sections, and you're done. Now, let's go to IP Fighter to check the new IP address.
+
+14
+00:01:35,760 --> 00:01:42,100
+Just select HTTP Proxy. After selecting the correct proxy protocol, refresh the IP Fighter
+
+15
+00:01:42,100 --> 00:01:50,240
+page. The IP address and location have changed. So, you've successfully added the proxy.
+
+16
+00:01:51,160 --> 00:01:55,720
+If this proxy can't access the internet, try the other protocols to see which one works.
+
+17
+00:01:55,720 --> 00:02:01,580
+There are also other options like Auto Detect, this automatically detects proxy settings from
+
+18
+00:02:01,580 --> 00:02:06,840
+the system or network. For example, if you're using a VPN or have set up a proxy on your
+
+19
+00:02:06,840 --> 00:02:12,740
+computer, it will automatically catch the IP based on those settings. System, this uses
+
+20
+00:02:12,740 --> 00:02:19,640
+the system's proxy settings. Direct, this accesses the website without using a proxy.
+
+21
+00:02:21,880 --> 00:02:26,500
+You can add the extension to different Chrome profiles to change the IP for each one.
+
+22
+00:02:30,280 --> 00:02:34,640
+For example, I added Proxy Helper on another Chrome profile with a US Proxy.
+
+23
+00:02:35,900 --> 00:02:39,260
+Just follow the steps I just showed you to add and access it.
+
+24
+00:02:56,280 --> 00:02:59,900
+Now, the two profiles have different IP addresses and locations.
+
+25
+00:03:03,300 --> 00:03:07,700
+Additionally, Proxy Helper has a Bypass List feature in the Rules section, which allows
+
+26
+00:03:07,700 --> 00:03:12,960
+users to set certain websites to access without using a proxy, instead using the original IP.
+
+27
+00:03:13,380 --> 00:03:18,640
+For instance, instead of using IPv4, you can use IPv6 to manage your Facebook accounts
+
+28
+00:03:18,640 --> 00:03:23,700
+more efficiently. However, some of Facebook's payment services aren't fully compatible with
+
+29
+00:03:23,700 --> 00:03:28,800
+IPv6 yet. So when you add a payment card while creating an ad campaign, you might run
+
+30
+00:03:29,520 --> 00:03:33,740
+In this case, by adding websites to the list, when you need to link a bank card,
+
+31
+00:03:33,940 --> 00:03:38,080
+the system will use your original IP without going through the proxy, helping you bypass
+
+32
+00:03:38,080 --> 00:03:43,400
+the website quickly without switching back to IPv4. That's how to use Proxy Helper to change
+
+33
+00:03:43,400 --> 00:03:48,000
+proxies and fake your IP on the Chrome browser. You can use this extension on Edge
+
+34
+00:03:48,000 --> 00:03:54,600
+profiles or use Foxy Proxy for Firefox. Thank you for watching the video. Wishing you all the best.
+

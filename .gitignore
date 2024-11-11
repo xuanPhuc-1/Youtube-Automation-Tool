@@ -1,0 +1,6 @@
+# ignore folder Faster-Whisper-XXL
+
+Faster-Whisper-XXL/
+.env
+Faster-Whisper-XXL.zip
+.venv/
