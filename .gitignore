@@ -4,3 +4,5 @@ Faster-Whisper-XXL/
 .env
 Faster-Whisper-XXL.zip
 .venv/
+audio/
+timestamps-ouput/
